@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&family=Rochester&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+/*   font-family: 'Inter', sans-serif;
+  font-family: 'Rochester', cursive, sans-serif; */
+  font-size: 0.875rem;
+  background: #FFF;
+  color: #000;
+}
+/* html {
+  --container:1000px;
+  --padding-container:10px;
+} */
+
+.wrapper {
+  min-height: 100%;
+/*   overflow: clip; */
+  display: flex;
+  flex-direction: column;
+
+ 
+}
+.__container {
+/*   max-width: calc(var(--container)+var(--padding-container) * 2);
+padding: 0 var(--padding-container);
+margin: 0 auto; */
+  max-width: 1000px;
+  padding: 0 15px;
+
+  margin: 0 auto;
+}

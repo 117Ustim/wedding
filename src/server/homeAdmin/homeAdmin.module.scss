@@ -1,0 +1,66 @@
+$ruler: 16px;
+$color-red: #AE1100;
+$color-bg: #EBECF0;
+$color-shadow: #BABECC;
+$color-white: #FFF;
+
+
+
+.homeAdmin {
+  height: 100vh;
+  background-color:$color-bg;
+form {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+
+
+  gap: 30px;
+  padding-top: $ruler*6;
+  width: $ruler*50;
+  margin: 0 auto;
+}
+
+
+
+  button {
+     border: 0;
+  outline: 0;
+  font-size: 18px;
+  border-radius: 20px;
+    color:#61677C;
+    font-weight: bold;
+    box-shadow: -5px -5px 20px $color-white,  5px 5px 20px $color-shadow;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+   background-color:$color-bg;
+  text-shadow: 1px 1px 0 $color-white;
+  
+
+  height: 150px;
+   
+    &:hover {
+      box-shadow: -2px -2px 5px $color-white, 2px 2px 5px $color-shadow;
+    }
+    
+    &:active {
+      box-shadow: inset 1px 1px 2px $color-shadow, inset -1px -1px 2px $color-white;
+    }
+    
+  
+    
+    &.red {
+      display: block;
+      width: 100%;
+      color:$color-red;
+    }
+  
+}
+.exit {
+  margin: 20px 20px;
+  width: 100px;
+  height: 30px;
+  color: $color-red;
+}
+}
+

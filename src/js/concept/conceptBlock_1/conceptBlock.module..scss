@@ -1,0 +1,51 @@
+.conceptBlock1 {
+
+ background-color:  #FEF4EC; 
+
+}
+.conceptBlock_content {
+display: flex;
+width: 1000px;
+}
+.conceptBlock_content_image {
+  width: 100%;
+  height: 100%;
+
+}
+.conceptBlock_content_block {
+
+}
+.conceptBlock_content_title {
+  color: #000;
+  font-family: Rochester;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 119.687%;
+  letter-spacing: 2.43px;
+  text-decoration-line: underline; 
+}
+.conceptBlock_content_text {
+  width: 270px;
+  color: #000;
+font-family: Rochester;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 119.687%;
+letter-spacing: 2.025px;
+}
+.conceptBlock1_text_block {
+  margin-top: 20px;
+
+}
+.conceptBlock1_text {
+  width: 676px;
+  color: #000;
+font-family: Rochester;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 119.687%; /* 17.953px */
+letter-spacing: 2.025px;
+}

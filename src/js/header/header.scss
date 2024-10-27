@@ -1,0 +1,107 @@
+/* скрываем чекбокс */
+.header {
+/*  position: relative; */
+ min-width: 1000px;
+
+}
+#menu__toggle {
+  opacity: 0;
+   
+}
+.hamburger_menu {
+  position: absolute;
+  top: 0;
+}
+/* стилизуем кнопку */
+.menu__btn {
+  display: flex; 
+  align-items: center;  
+  position: fixed;
+  padding-left: 37px;
+  padding-top: 37px;
+ /*  top: 20px;
+  left: 20px; */
+  width: 40px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+  flex-shrink: 0;
+}
+/* добавляем "гамбургер" */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+/* контейнер меню */
+.menu__box {
+  display: block;
+  position: absolute;
+ /*  position: fixed; */
+  visibility:hidden;
+  top: 35px;
+  left:0;
+  opacity: 1;
+  width: 130px;
+ /*  height: 200px; */
+  margin: 0;
+ /*  padding: 80px 0; */
+  list-style: none;
+  text-align: center;
+  background-color:rgba(255, 255, 255, 0.24);
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  z-index: 5;
+  border-radius:5px;
+ 
+
+}
+
+
+/* элементы меню */
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 119.687%; 
+  letter-spacing: 1.62px;
+  text-decoration: none;
+}
+.menu__item:hover {
+  background-color: #cfd8dc5b;
+ 
+}
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 100px;
+  
+}
+

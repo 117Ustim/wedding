@@ -1,0 +1,55 @@
+$ruler: 16px;
+$color-red: #AE1100;
+$color-bg: #EBECF0;
+$color-shadow: #BABECC;
+$color-white: #FFF;
+
+
+.block_button {
+ display: flex;
+ gap: 30px;
+justify-content: flex-end;
+
+
+button {
+  margin-top: 80px;
+  border: 0;
+  outline: 0;
+  color:#61677C;
+  font-weight: bold;
+  box-shadow: -5px -5px 20px $color-white,  5px 5px 20px $color-shadow;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+  height: 37px;
+  width: 120px;
+  border-radius: $ruler*20;
+  background-color:$color-bg;
+  font-size: 14px;
+ 
+  
+  &:hover {
+    box-shadow: -2px -2px 5px $color-white, 2px 2px 5px $color-shadow;
+  }
+  
+  &:active {
+    box-shadow: inset 1px 1px 2px $color-shadow, inset -1px -1px 2px $color-white;
+  }
+}
+
+.download {
+  color:rgb(201, 62, 62); 
+}
+.exit {
+ margin-top: 20px;
+position: absolute;
+left: 30px;
+color: $color-red;
+}
+}
+
+
+
+.input {
+  display: none;
+}

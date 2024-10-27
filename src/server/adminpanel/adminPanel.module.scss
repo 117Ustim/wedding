@@ -1,0 +1,170 @@
+/* $left-color:  #242e4d; */
+$right-color: #897e79d6;
+/* $green-dark:  #35c3c1; */
+/* $green-light: #00d6b7; */
+/* $gray-light:  #f5f6f8; */
+
+$gray: #ffffff;
+$bg: $right-color;
+
+.block_panel {
+  margin-top: 120px;
+  background-color: #fa9f17;
+  width: 280px;
+  height: 300px;
+
+  padding: 4em;
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid #b12816;
+  -webkit-box-shadow: 0px 7px 16px -3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 7px 16px -3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 7px 16px -3px rgba(0, 0, 0, 0.5);
+  background: #bc3220;
+  background: -moz-linear-gradient(
+    left,
+    #bc3220 0%,
+    #db4a37 29%,
+    #db4a37 50%,
+    #db4a37 71%,
+    #bc3220 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, #bc3220),
+    color-stop(29%, #db4a37),
+    color-stop(50%, #db4a37),
+    color-stop(71%, #db4a37),
+    color-stop(100%, #bc3220)
+  );
+  background: -webkit-linear-gradient(
+    left,
+    #bc3220 0%,
+    #db4a37 29%,
+    #db4a37 50%,
+    #db4a37 71%,
+    #bc3220 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    #bc3220 0%,
+    #db4a37 29%,
+    #db4a37 50%,
+    #db4a37 71%,
+    #bc3220 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    #bc3220 0%,
+    #db4a37 29%,
+    #db4a37 50%,
+    #db4a37 71%,
+    #bc3220 100%
+  );
+  background: linear-gradient(
+    to right,
+    #bc3220 0%,
+    #db4a37 29%,
+    #db4a37 50%,
+    #db4a37 71%,
+    #bc3220 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc3220', endColorstr='#bc3220', GradientType=1 );
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+  }
+}
+.admin {
+  display: flex;
+  justify-content: center;
+  color: $gray;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.adminPanel {
+  height: 100vh;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: $bg;
+  margin: 0px;
+}
+
+input {
+  margin-top: 10px;
+}
+
+.lf_input {
+  flex: 1;
+  padding: 1em 2em;
+  border: 0;
+  width: 100%;
+  box-sizing: border-box;
+  color: $gray;
+  font-size: 0.8rem;
+  font-family: Open Sans, Arial, sans-serif;
+  text-shadow: 1px 1px 1px #232323;
+  border-radius: 25px;
+  background: #bc3220;
+  background: -moz-linear-gradient(top, #bc3220 0%, #fa5846 100%);
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, #bc3220),
+    color-stop(100%, #fa5846)
+  );
+  background: -webkit-linear-gradient(top, #bc3220 0%, #fa5846 100%);
+  background: -o-linear-gradient(top, #bc3220 0%, #fa5846 100%);
+  background: -ms-linear-gradient(top, #bc3220 0%, #fa5846 100%);
+  background: linear-gradient(to bottom, #bc3220 0%, #fa5846 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc3220', endColorstr='#fa5846', GradientType=0 );
+
+  &:focus {
+    outline: none;
+    transition: transform 0.15s ease;
+    transform: scale(1.02);
+  }
+}
+
+.lf_submit {
+  display: block;
+  padding: 1em;
+  width: 100%;
+  -webkit-box-shadow: 0px 7px 16px -3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 7px 16px -3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 7px 16px -3px rgba(0, 0, 0, 0.5);
+  background: #ffbf00;
+  background: -moz-linear-gradient(top, #ffbf00 0%, #fa9f17 100%);
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, #ffbf00),
+    color-stop(100%, #fa9f17)
+  );
+  background: -webkit-linear-gradient(top, #ffbf00 0%, #fa9f17 100%);
+  background: -o-linear-gradient(top, #ffbf00 0%, #fa9f17 100%);
+  background: -ms-linear-gradient(top, #ffbf00 0%, #fa9f17 100%);
+  background: linear-gradient(to bottom, #ffbf00 0%, #fa9f17 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbf00', endColorstr='#fa9f17', GradientType=0 );
+  border: 0;
+  border-radius: 30px;
+  color: #fff;
+  margin-top: 50px;
+  cursor: pointer;
+  font-size: 0.85em;
+  font-weight: 500;
+  text-shadow: -1px -1px #b86200, 0 1px 0 #ecb76b;
+
+  &:focus {
+    outline: none;
+    transition: transform 0.15s ease;
+    transform: scale(0.95);
+  }
+}
