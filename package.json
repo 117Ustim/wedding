@@ -2,7 +2,7 @@
   "name": "wedding",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://117ustim.github.io/wedding",
+  "homepage": "https://117Ustim.github.io/wedding",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
