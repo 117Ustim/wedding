@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wedding/static/css/main.d25fbfc0.css",
-    "main.js": "/wedding/static/js/main.05681e11.js",
+    "main.js": "/wedding/static/js/main.7b40d420.js",
     "static/media/wedding-dresses-sydney.jpg": "/wedding/static/media/wedding-dresses-sydney.1f994750de37598ca76b.jpg",
     "static/media/slick.svg": "/wedding/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/wedding/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,10 +9,10 @@
     "static/media/slick.woff": "/wedding/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/wedding/index.html",
     "main.d25fbfc0.css.map": "/wedding/static/css/main.d25fbfc0.css.map",
-    "main.05681e11.js.map": "/wedding/static/js/main.05681e11.js.map"
+    "main.7b40d420.js.map": "/wedding/static/js/main.7b40d420.js.map"
   },
   "entrypoints": [
     "static/css/main.d25fbfc0.css",
-    "static/js/main.05681e11.js"
+    "static/js/main.7b40d420.js"
   ]
 }
