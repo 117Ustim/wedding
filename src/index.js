@@ -37,7 +37,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
   <React.StrictMode>
-      <BrowserRouter>
+      <BrowserRouter basename="/wedding">
        <App storage={storage} />
     
       </BrowserRouter>
